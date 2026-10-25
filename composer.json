@@ -14,5 +14,8 @@
             "email": "stas55789@icloud.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "bin": [
+        "bin/brain-games"
+    ]
 }
