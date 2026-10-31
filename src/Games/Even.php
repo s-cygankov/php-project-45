@@ -1,18 +1,11 @@
 <?php
 
-namespace BrainGames\Even;
+namespace BrainGames\Games\Even;
 
-use function cli\line;
-use function cli\prompt;
+use function BrainGames\Engine\playingGame;
 
-const NUMB_ROUND = 3;
-function meet()
-{
-    line('Welcome to the Brain Games!');
-    $name = prompt('May I have your name?', false, ' ');
-    line('Hello, %s!', $name);
-    return $name;
-}
+use const BrainGames\Engine\NUMB_ROUND;
+
 function checkParity($randomNumber)
 {
     $number = $randomNumber % 2;
@@ -22,21 +15,14 @@ function checkParity($randomNumber)
         return false;
     }
 }
-function gameEven($name)
+function gameEven()
 {
-    line('Answer "yes" if the number is even, otherwise answer "no".');
+    $rules = 'Answer "yes" if the number is even, otherwise answer "no".';
+    $roundAnswer = [];
     for ($i = 0; $i < NUMB_ROUND; $i++) {
-        $randomNumber = rand(1, 50);
-        $review = checkParity($randomNumber);
-        $rightAnswer = ($review == true) ? 'yes' : 'no';
-        line("Question: %s", $randomNumber);
-        $answer = prompt('Your answer');
-        if ($rightAnswer == $answer) {
-            line('Correct!');
-        } else {
-            line("'%s' is wrong answer ;(. Correct answer was '%s'.\nLet's try again, %s!", $answer, $rightAnswer, $name);
-            return;
-        }
+        $roundAnswer[$i][0] = rand(1, 50);
+        $review = checkParity($roundAnswer[$i][0]);
+        $roundAnswer[$i][1] = ($review == true) ? 'yes' : 'no';
     }
-    line('Congratulations, %s!', $name);
+    playingGame($rules, $roundAnswer);
 }
