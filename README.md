@@ -41,3 +41,5 @@ cd php-project-45
 [![asciicast](https://asciinema.org/a/UUDZrG47rYGWAVzD.svg)](https://asciinema.org/a/UUDZrG47rYGWAVzD)
 ## Brain Calc 
 [![asciicast](https://asciinema.org/a/p0TE65PCDW4O3Bs2.svg)](https://asciinema.org/a/p0TE65PCDW4O3Bs2)
+## Brain Gcd
+[![asciicast](https://asciinema.org/a/cBfzxnD2YBEf8ekq.svg)](https://asciinema.org/a/cBfzxnD2YBEf8ekq)
