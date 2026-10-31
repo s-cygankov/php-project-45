@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+
+require __DIR__ . '/../vendor/autoload.php';
+
+use function BrainGames\Even\meet;
+use function BrainGames\Even\gameEven;
+$name = meet();
+gameEven($name);

@@ -9,6 +9,9 @@
         },
         "files": [
             "src/Cli.php"
+        ],
+        "files": [
+            "src/Even.php"
         ]
     },
     "authors": [
