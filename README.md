@@ -1,7 +1,6 @@
 # Игры разума (PHP)
 
 [![hexlet-check](https://github.com/s-cygankov/php-project-45/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/s-cygankov/php-project-45/actions)
-
 Погрузитесь в экосистему PHP, научитесь настраивать рабочее окружение. Подружитесь с CodeSniffer (линтером, анализатором качества кода) и менеджером зависимостей Composer. Поймёте, чем git отличается от GitHub, поработаете с внешними репозиториями. Получите опыт построения архитектуры полноценного приложения и написания чистого кода.
 
 Учебный проект Хекслета: https://ru.hexlet.io/programs/php
@@ -36,3 +35,7 @@ cd php-project-45
 ## О Хекслете
 
 [Хекслет](https://ru.hexlet.io/) — школа программирования: авторские программы обучения с практикой, поддержкой наставников и реальными проектами, которые остаются в резюме. Этот репозиторий — один из таких проектов.
+
+
+## Brain Games 
+[![asciicast](https://asciinema.org/a/UUDZrG47rYGWAVzD.svg)](https://asciinema.org/a/UUDZrG47rYGWAVzD)
