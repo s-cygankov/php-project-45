@@ -45,3 +45,5 @@ cd php-project-45
 [![asciicast](https://asciinema.org/a/cBfzxnD2YBEf8ekq.svg)](https://asciinema.org/a/cBfzxnD2YBEf8ekq)
 ## Brain Progression
 [![asciicast](https://asciinema.org/a/wbFTbyvoOqTdLTfy.svg)](https://asciinema.org/a/wbFTbyvoOqTdLTfy)
+## Brain Prime
+[![asciicast](https://asciinema.org/a/3N5sa6ZENp7f35zt.svg)](https://asciinema.org/a/3N5sa6ZENp7f35zt)
