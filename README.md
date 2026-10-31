@@ -39,3 +39,5 @@ cd php-project-45
 
 ## Brain Games 
 [![asciicast](https://asciinema.org/a/UUDZrG47rYGWAVzD.svg)](https://asciinema.org/a/UUDZrG47rYGWAVzD)
+## Brain Calc 
+[![asciicast](https://asciinema.org/a/p0TE65PCDW4O3Bs2.svg)](https://asciinema.org/a/p0TE65PCDW4O3Bs2)
